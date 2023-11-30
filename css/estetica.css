@@ -748,10 +748,16 @@ textarea {
 }
 
 @media (max-width: 768px) {
+    .carousel-slide {
+        display: flex;
+        width: 100%;
+        overflow: hidden;
+    }
+
     .carousel-slide img {
-      width: 100%; /* 2 imagens por slide em telas menores */
-      margin-right: 0;
-      height: auto;
+        flex: 0 0 100%;
+        height: auto;
+        margin-right: 0;
     }
 
 }
