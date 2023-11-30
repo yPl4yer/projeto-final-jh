@@ -750,8 +750,7 @@ textarea {
 @media (max-width: 768px) {
     .carousel-slide {
         flex-wrap: nowrap;
-	display: flex;
-	max-width: 350px;
+	flex: 0 0 100%;
     }
 
 }
