@@ -747,21 +747,6 @@ textarea {
 
 }
 
-@media (max-width: 768px) {
-    .carousel-slide {
-        display: flex;
-        width: 100%;
-        overflow: hidden;
-    }
-
-    .carousel-slide img {
-        flex: 0 0 100%;
-        height: auto;
-        margin-right: 0;
-    }
-
-}
-
 
 @media (max-width: 600px){
 
