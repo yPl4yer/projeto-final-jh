@@ -814,6 +814,10 @@ textarea {
 	font-size: 40px;
     }
 
+    .banner img {
+	max-width: 100%;
+    }
+
 }
 
 @media (max-width: 480px) {
