@@ -751,7 +751,7 @@ textarea {
     .carousel-slide {
         flex-wrap: nowrap;
 	display: flex;
-	width: 350px;
+	max-width: 350px;
     }
 
 }
