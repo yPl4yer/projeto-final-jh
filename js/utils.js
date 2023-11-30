@@ -34,9 +34,9 @@ document.addEventListener("DOMContentLoaded", function () {
     const windowWidth = window.innerWidth;
 
     if (windowWidth <= 768) {
-      counter = 0;
+      counter = 1;
     } else {
-      counter = 50%; // Defina aqui a porcentagem de deslocamento desejada para telas maiores
+      counter = 0; // Defina aqui a porcentagem de deslocamento desejada para telas maiores
     }
   }
 
