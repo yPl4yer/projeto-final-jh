@@ -33,7 +33,7 @@ document.addEventListener("DOMContentLoaded", function () {
   function setSlideWidth() {
     const windowWidth = window.innerWidth;
 
-    if (windowWidth <= 600) {
+    if (windowWidth <= 768) {
       counter = 0;
     } else {
       counter = 0; // Defina aqui a porcentagem de deslocamento desejada para telas maiores
