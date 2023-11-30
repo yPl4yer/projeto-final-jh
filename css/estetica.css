@@ -748,9 +748,12 @@ textarea {
 }
 
 @media (max-width: 768px) {
+    .carousel-wrapper {
+        width: 300%; /* Ajuste conforme necessário, considerando que há apenas uma imagem por vez */
+    }
+
     .carousel-slide {
-        flex-wrap: nowrap;
-	flex: 0 0 100%;
+        flex: 0 0 33.33%; /* Ou ajuste conforme necessário para o número desejado de imagens exibidas ao mesmo tempo */
     }
 
 }
