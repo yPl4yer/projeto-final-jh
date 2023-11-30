@@ -843,12 +843,6 @@ textarea {
         overflow: hidden;
     }
 
-    .carousel-slide img {
-        flex: 0 0 100%;
-        height: auto;
-        margin-right: 0;
-    }
-
 }
 
 @media (max-width: 480px) {
