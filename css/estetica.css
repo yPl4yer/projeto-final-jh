@@ -433,6 +433,7 @@ a {
     
     padding: 0px;
     width: 650px;
+    max-width: 100%;
     margin: auto;
     color: rgb(66, 66, 66);
     font-size: medium;
@@ -539,7 +540,6 @@ footer {
     height: auto;
     display: block;
     position: relative;
-
 }
 
 .serv {
@@ -605,7 +605,7 @@ footer {
 }
 
 hr {
-	width: 1280px;
+	width: 100%;
 	border-top: 1px solid rgb(66, 66, 66);
 }
 
@@ -730,6 +730,21 @@ textarea {
 
     }
 
+    .consul{
+        clear: both;
+        flex-wrap: wrap;
+        flex-direction: column;
+        text-align: left;
+    }
+
+    #consull{
+        margin-left: 10px;
+    }
+
+    #a-consul{
+        margin-left: 7px;
+    }
+
 }
 
 @media (max-width: 768px) {
@@ -760,8 +775,14 @@ textarea {
         width: 95%;
     }
 
-    #imgf, #foto1{
+    #imgf, #foto1, #foto3{
         width: 100%;
+    }
+
+    #foto3{
+        max-width: 100%;
+        margin-left: 0;
+        
     }
 
 
@@ -773,6 +794,14 @@ textarea {
         width: 300px;
     }
 
+    #titulo{
+        font-size: 60px;
+    }
+
+    #sepa2{
+        margin-right: 94%;
+        margin-left: 10px;
+    }
 
 }
 
