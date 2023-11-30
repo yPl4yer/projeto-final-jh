@@ -822,6 +822,11 @@ textarea {
 	max-width: 100%;
     }
 
+
+    .contato-form {
+	display: grid;
+    }
+
 }
 
 @media (max-width: 480px) {
