@@ -818,6 +818,10 @@ textarea {
 	max-width: 100%;
     }
 
+    .contato img {
+	max-width: 100%;
+    }
+
 }
 
 @media (max-width: 480px) {
