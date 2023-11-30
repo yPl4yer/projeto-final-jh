@@ -1,0 +1,171 @@
+<!DOCTYPE HTML>
+<html lang="pt">
+
+<head>
+    <meta charset="utf-8">
+    <meta name="author" content="Jamille Henriques">
+    <meta name="description" content="Consultoria de moda e estilo">
+    <title>Jamille Henriques</title>
+    <link href=".\css\estetica.css" rel="stylesheet" type="text/css" />
+    <link rel="shortcut icon" href="./img/logo.png" type="image/x-icon" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1" />
+</head>
+
+<body>
+    <header>
+        <img id="logo" src="./img/logo.png" alt="Logo JH">
+        <nav>
+            <ul class="menu">
+                <li><a href="./contato.html">Contato</a></li>
+                <li><a href="./consultorias.html">Consultorias</a></li>
+                <li><a href="./index.html">Início</a></li>
+            </ul>
+        </nav>
+    </header>
+
+    <main>
+        <article class="banner">
+            <img src="./img/banner.png">
+            <section class="serv">
+                <h1>CONSULTORIAS</h1>
+            </section>
+        </article>
+
+        <article class="tipo-container">
+            <h2 id="atend-online">ATENDIMENTOS ONLINE</h2>
+            <section class="tipo">
+                <button onclick="toggleSection(this)">
+                    <span>CONSULTORIA COMPLETA</span>
+                    <img class="seta2" src="./img/seta-faq.png">
+                </button>
+                <p id="infos"><b>O que oferece:</b> Você descobrirá o seu estilo, biotipo, truques, dicas, montagem de
+                    looks, aprenderá a fazer sua própria maquiagem, cabelos e unhas, mala inteligente, estratégia de
+                    imagem corporativa e compras assertivas de acordo com a sua essência e necessidade.
+                    <br><br><b>Investimento:</b> R$1.699,00 <br><b><a
+                            href="https://api.whatsapp.com/send/?phone=5548996174450&text=Ol%C3%A1,+quero+saber+mais+sobre+consultoria+completa&type=phone_number&app_absent=0"
+                            target="_blank">Saiba mais</a></b>
+                </p>
+            </section>
+
+            <section class="tipo">
+                <button onclick="toggleSection(this)">
+                    <span>CONSULTORIA IMAGEM E ESTILO - BÁSICA</span>
+                    <img class="seta" src="./img/seta-faq.png">
+                </button>
+                <p id="infos"><b>O que oferece:</b> Você descobrirá o seu estilo, biotipo, truques, dicas, montagem de
+                    looks, aprenderá a fazer sua própria maquiagem e compras assertivas de acordo com a sua essência e
+                    necessidade. <br><br> <b>Investimento:</b> R$399,00 <br><b><a
+                            href="https://api.whatsapp.com/send/?phone=5548996174450&text=Ol%C3%A1,+quero+saber+mais+sobre+consultoria+b%C3%A1sica&type=phone_number&app_absent=0"
+                            target="_blank">Saiba mais</a></b>
+                </p>
+            </section>
+
+            <section class="tipo">
+                <button onclick="toggleSection(this)">
+                    <span>ESTRÁTEGIA DE IMAGEM CORPORATIVA</span>
+                    <img class="seta2" src="./img/seta-faq.png">
+                </button>
+                <p id="infos"><b>O que oferece:</b> Você ressaltará a sua imagem profissional de acordo com o seu
+                    produto ou serviço, trazendo mais autoridade e credibilidade, com isso conquistando mais clientes.
+                    Incluímos também uma estratégia de imagem para fotos corporativas.
+                    <br><br><b>Investimento:</b> R$399,00 <br><b><a
+                            href="https://api.whatsapp.com/send/?phone=5548996174450&text=Ol%C3%A1,+quero+saber+mais+sobre+estrategia+de+imagem+corporativa&type=phone_number&app_absent=0"
+                            target="_blank">Saiba mais</a></b>
+                </p>
+            </section>
+
+            <section class="tipo">
+                <button onclick="toggleSection(this)">
+                    <span>MONSTAGEM DE LOOKS</span>
+                    <img class="seta2" src="./img/seta-faq.png">
+                </button>
+                <p id="infos"><b>O que oferece:</b> Você aprenderá a montar os seus looks de acordo com as peças que
+                    você tem no seu guarda-roupa. Incluindo acessórios no geral. Com direito a 10 looks montado
+                    estrategicamente.
+                    <br><br><b>Investimento:</b> R$299,00 <br><b><a
+                            href="https://api.whatsapp.com/send/?phone=5548996174450&text=Ol%C3%A1,+quero+saber+mais+sobre+montagem+de+looks&type=phone_number&app_absent=0"
+                            target="_blank">Saiba mais</a></b>
+                </p>
+            </section>
+
+            <section class="tipo">
+                <button onclick="toggleSection(this)">
+                    <span>AUTOMAQUIAGEM</span>
+                    <img class="seta2" src="./img/seta-faq.png">
+                </button>
+                <p id="infos"><b>O que oferece:</b> Você desvendará todo o mistério no mundo da maquiagem, conhecendo os
+                    seus traços, valorizando cada vez mais a sua imagem pessoal e profissional. Com duração de 2h30.
+                    <br><br><b>Investimento:</b> 1 pessoa R$99,00 / 2 pessoas R$ 89,00 <br><b><a
+                            href="https://api.whatsapp.com/send/?phone=5548996174450&text=Ol%C3%A1,+quero+saber+mais+sobre+automaquiagem&type=phone_number&app_absent=0"
+                            target="_blank">Saiba mais</a></b>
+                </p>
+            </section>
+
+            <section class="tipo">
+                <button onclick="toggleSection(this)">
+                    <span>MALA PLANEJADA</span>
+                    <img class="seta2" src="./img/seta-faq.png">
+                </button>
+                <p id="infos"><b>O que oferece:</b> Indicado para você que irá viajar e quer evitar excessos de
+                    bagagens. Deseja levar looks de acordo com o seu passeio ou compromisso. Com duração de 2h30.
+                    <br><br><b>Investimento:</b> R$199,00 <br><b><a
+                            href="https://api.whatsapp.com/send/?phone=5548996174450&text=Ol%C3%A1,+quero+saber+mais+sobre+mala+planejada&type=phone_number&app_absent=0"
+                            target="_blank">Saiba mais</a></b>
+                </p>
+            </section>
+
+            <section class="tipo">
+                <button onclick="toggleSection(this)">
+                    <span>INSTAGRAM PROFISSIONAL – MENTORIA</span>
+                    <img class="seta2" src="./img/seta-faq.png">
+                </button>
+                <p id="infos"><b>O que oferece:</b> Você aprenderá tudo sobre o instagram, incluindo bio completa,
+                    vídeos, fotos, reels, stories, dicas, planejamento de postagens, posicionamento e mais...
+                    <br><br><b>Investimento:</b> R$399,00 <br><b><a
+                            href="https://api.whatsapp.com/send/?phone=5548996174450&text=Ol%C3%A1,+quero+saber+mais+sobre+mentoria&type=phone_number&app_absent=0"
+                            target="_blank">Saiba mais</a></b>
+                </p>
+            </section>
+        </article>
+
+        <hr>
+
+        <article class="tipo-container">
+            <h2 id="atend-online">ATENDIMENTOS PRESENCIAL</h2>
+            <section class="tipo">
+                <button onclick="toggleSection(this)">
+                    <span>PALESTRA</span>
+                    <img class="seta2" src="./img/seta-faq.png">
+                </button>
+                <p id="infos"><b>O que oferece:</b> Destinadas as empresas que tenham interesse em levar conteúdo de
+                    imagem, estilo e etiqueta para os seus colaboradores.
+                    <br><br><b>Investimento:</b> a combinar. <br><b><a
+                            href="https://api.whatsapp.com/send/?phone=5548996174450&text=Ol%C3%A1,+quero+saber+mais+sobre+palestra&type=phone_number&app_absent=0"
+                            target="_blank">Saiba mais</a></b>
+                </p>
+            </section>
+        </article>
+
+
+
+    </main>
+
+    <footer>
+        <ul class="icones">
+
+            <li><a href="https://api.whatsapp.com/send/?phone=5548996174450&text=Ol%C3%A1+vim+do+seu+website&type=phone_number&app_absent=0"
+                    target="_blank"> <img src="./img/icons8-whatsapp-50.png" alt="Whatsapp Logo">
+                </a></li>
+
+            <li><a href="https://instagram.com/jajahenriques" target="_blank"> <img src="./img/icons8-instagram-50.png"
+                        alt="Instagram Logo">
+                </a></li>
+
+            <li><a href="https://tiktok.com/@jajahenriques" target="_blank"> <img src="./img/icons8-tiktok-50.png"
+                        alt="TikTok Logo">
+                </a></li>
+        </ul>
+        <p id="direitos">© Todos os direitos reservados Jamille Henriques</p>
+    </footer>
+    <script src="./js/utils.js"></script>
+</body>
