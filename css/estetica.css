@@ -383,6 +383,8 @@ a {
     width: 33%;  /*3 imagens por slide */
     height: auto;
     margin-right: 10px; /* Espaço entre as imagens */
+    flex: 0 0 100%;
+    height: auto;
 }
 
 #prevBtn,
@@ -749,15 +751,7 @@ textarea {
 
 @media (max-width: 768px) {
     .carousel-slide {
-        display: flex;
-        width: 100%;
-        overflow: hidden;
-    }
-
-    .carousel-slide img {
-        flex: 0 0 100%;
-        height: auto;
-        margin-right: 0;
+        flex-wrap: nowrap; /* Garante que os itens não quebrarão para a próxima linha */
     }
 
 }
