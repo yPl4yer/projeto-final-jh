@@ -823,7 +823,7 @@ textarea {
     }
 
 
-    .contato-form {
+    .contato-form, .contato-container {
 	display: flexbox;
     }
 
