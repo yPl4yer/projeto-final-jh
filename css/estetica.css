@@ -802,12 +802,16 @@ textarea {
     }
 
     #titulo{
-        font-size: 60px;
+        font-size: 40px;
     }
 
     #sepa2{
         margin-right: 94%;
         margin-left: 10px;
+    }
+
+    h1{
+	font-size: 40px;
     }
 
 }
