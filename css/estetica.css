@@ -45,7 +45,7 @@ body {
 
 header {
 
-    background-color: #be7b60;
+    background-color: #f5f5f5;
     background-repeat: repeat;
     font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
     display: flex;
@@ -68,7 +68,6 @@ nav{
 
 .menu li {
 
-    color: white;
     margin-right: 40px;
     list-style: none;
     gap: 30px;
@@ -80,7 +79,7 @@ nav{
 .menu li a {
 
     text-decoration: none;
-    color: white;
+    color: rgb(66, 66, 66);
     font-weight: bold;
 }
 
@@ -306,7 +305,7 @@ h2 {
 
 .perguntas button{
     width: 100%;
-    background-color: #be7b60;
+    background-color: #f5f5f5;
     display: flex;
     justify-content: space-between;
     align-items: center;
@@ -499,7 +498,7 @@ input[type="checkbox"] {
 
 footer {
 
-    background-color: #be7b60;
+    background-color: #f5f5f5;
     clear: both;
     padding: 28px;         
     color: rgb(250,255,250);
@@ -523,6 +522,12 @@ footer {
     position: relative;
     left: -1.5%;
     gap: 15px;
+}
+
+#direitos {
+
+    color: rgb(66, 66, 66);
+
 }
 
 /* COMEÇO CONSULTORIAS */
