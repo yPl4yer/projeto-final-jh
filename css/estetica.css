@@ -751,6 +751,7 @@ textarea {
     .carousel-slide img {
       width: 100%; /* 2 imagens por slide em telas menores */
       margin-right: 0;
+      height: auto;
     }
 
 }
