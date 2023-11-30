@@ -836,13 +836,6 @@ textarea {
         padding: 20px;
     }
 
-    .carousel-slide {
-        display: flex;
-        width: 50%;
-	max-width: 250px;
-        overflow: hidden;
-    }
-
 }
 
 @media (max-width: 480px) {
